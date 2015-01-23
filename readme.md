@@ -13,13 +13,13 @@ The package currently only supports their [Recommender API](https://developers.l
     from lateral.api import LateralRecommender
     lr = LateralRecommender('my-subscription-key')
 
-    text = '''European leaders expressed their desire \
-           to support the recovery as the global economy \
-           moves beyond the global financial crisis. European \
-           Commission President Barroso and European Council \
-           President Van Rompuy stressed the importance of \
-           coordinated growth strategies as well as finalising \
-           agreements on core financial reforms, and actions on \
+    text = '''European leaders expressed their desire
+           to support the recovery as the global economy
+           moves beyond the global financial crisis. European
+           Commission President Barroso and European Council
+           President Van Rompuy stressed the importance of
+           coordinated growth strategies as well as finalising
+           agreements on core financial reforms, and actions on
            tax and anti-corruption.'''
 
     doc_id = lr.add_doc(text)
