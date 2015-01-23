@@ -1,7 +1,7 @@
 import urlparse
 import requests
 
-from lateral import LateralDoc
+from lateral.doc import LateralDoc
 
 
 class LateralAPI():
